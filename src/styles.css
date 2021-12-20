@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --blue: rgba(87, 92, 98, 0.85);
+    --white: #ffffff; 
+  }
+  *,*::before,*::after{
+    box-sizing:border-box;
+}
+
+body{
+    margin: 0;
+    background: #222;
+    font-family: 'Trebuchet MS';
+    font-weight: 400;
+}
+
+    .content {
+        height: 200vh;
+        background-image: url(assets/img/web.jpg);
+        background-color: rgb(41, 41, 41);
+        background-repeat: no-repeat;
+        background-blend-mode: multiply; 
+        background-size: 100% 100% ; 
+         display: grid; 
+         place-items: center;
+      }
+

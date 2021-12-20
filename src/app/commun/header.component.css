@@ -1,0 +1,49 @@
+/* .logo{
+    height: 75px;
+    display: block;
+    text-align: left;
+    padding-left: 10px;
+} */
+
+/* Navigation styles start here */
+.logoSize{
+    height: 80px;
+}
+header{
+    background: var(--blue);
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+
+}
+nav{
+    position: absolute;
+    text-align: left;
+    top:100%;
+    left: 0;
+    background: var(--blue);
+    width: 100%;
+}
+nav ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+nav li{
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color:#000;
+}
+.logo{
+
+}
+
